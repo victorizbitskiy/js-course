@@ -155,7 +155,6 @@ const isReady = true
 // }
 
 // 11 Объекты
-
 const person = {
   firstName: 'Victor',
   lastName: 'Izbitskiy',
