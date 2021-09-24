@@ -97,6 +97,81 @@ const isReady = true
 //   console.log('Все не готово')
 // }
 
-isReady ? console.log('Все готово!') : console.log('Все не готово')
+// isReady ? console.log('Все готово!') : console.log('Все не готово')
 
+// 7 Булева логика
+// https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/%D0%9B%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B
 
+// 8 Функции
+// function calculateAge(year) {
+//   return 2021 - year
+// }
+
+// const myAge = calculateAge(1991)
+// console.log(myAge)
+
+// function logInfoAbout(name, year) {
+//   const age = calculateAge(year)
+
+//   if (age > 0) {
+//     console.log(' Кандидат' + name + ', возраст ' + age)
+//   } else {
+//     console.log('Вообще-то, это уже будущее')
+//   }
+
+// }
+
+// logInfoAbout('Мария', 1990)
+// logInfoAbout('Мария', 2022)
+
+// 9 Массивы
+
+// const cars = ['Хонда', 'Мерседес', 'Камаз']
+
+// const cars = new Array('Хонда', 'Мерседес', 'Камаз')
+// console.log(cars)
+// console.log(cars[0])
+// console.log(cars[1])
+// console.log(cars[2])
+// console.log(cars[3])
+
+// console.log(cars.length)
+
+// cars[0] = 'Porsche'
+// console.log(cars)
+// cars[cars.length] = 'Хонда'
+// console.log(cars)
+
+// 10 Циклы 
+// const cars = ['Хонда', 'Мерседес', 'Камаз']
+
+// for (let i = 0; i < cars.length; i++) {
+//   const car = cars[i]
+//   console.log(car)
+// }
+
+// for (let car of cars) {
+//   console.log(car)
+// }
+
+// 11 Объекты
+
+const person = {
+  firstName: 'Victor',
+  lastName: 'Izbitskiy',
+  years: 30,
+  languages: ['Ru', 'En', 'De'],
+  hasWife: false,
+  greet: function () {
+    console.log('greet from person')
+  }
+}
+console.log(person.firstName);
+console.log(person['lastName']);
+const key = 'languages'
+console.log(person[key])
+person.hasWife = true
+console.log(person.hasWife)
+person.isProgrammer = true
+console.log(person)
+person.greet()
