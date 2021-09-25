@@ -73,3 +73,26 @@
 
 
 
+<<<<<<< HEAD
+=======
+// 11 Объекты
+const person = {
+  firstName: 'Victor',
+  lastName: 'Izbitskiy',
+  years: 30,
+  languages: ['Ru', 'En', 'De'],
+  hasWife: false,
+  greet: function () {
+    console.log('greet from person')
+  }
+}
+console.log(person.firstName);
+console.log(person['lastName']);
+const key = 'languages'
+console.log(person[key])
+person.hasWife = true
+console.log(person.hasWife)
+person.isProgrammer = true
+console.log(person)
+person.greet()
+>>>>>>> d4f92720de368d8fc5f9a53f53833ec89a0c18f4
