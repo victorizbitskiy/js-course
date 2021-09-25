@@ -64,8 +64,8 @@
 
 // 4 Example
 
-// function getRandomBetween(min, max) {
-//   return Math.floor(Math.random() * (max - min + 1) + min)
-// }
+function getRandomBetween(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
 
-// console.log(getRandomBetween(10, 42))
+console.log(getRandomBetween(10, 42))
