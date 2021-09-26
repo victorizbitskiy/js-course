@@ -89,7 +89,7 @@
 // console.log(num1 === num2) // >> false, т.к. число не равно строке
 
 // Тернарные выражения
-const isReady = true
+// const isReady = true
 
 // if (isReady === true) {
 //   console.log('Все готово!')
