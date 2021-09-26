@@ -3,6 +3,7 @@
 // const name = 'Виктор'
 // const age = 30
 
+<<<<<<< HEAD
 // function getAge() {
 //   return age
 // }
@@ -51,3 +52,4 @@ const output = logPerson`Имя: ${personName}, Возраст: ${personAge}!` /
 const output2 = logPerson`Имя: ${personName2}, Возраст: ${personAge2}!`
 console.log(output);
 console.log(output2);
+
