@@ -71,7 +71,7 @@ const logger = {
       console.log('------Start-------');
     }
 
-    Object.keys(this).forEach((key, index, array) => { // стрелочные функции не создают свой контектс
+    Object.keys(this).forEach((key, index, array) => { 
       console.log(`"${key}": ${this[key]}`);
       if (between && index !== array.length - 1) {
         console.log('----------------'); 
@@ -87,7 +87,7 @@ const logger = {
 // const bound = logger.keys.bind(person) // bind возвращает функцию
 // bound()
 
-// logger.keys.call(person) // сразу вызывает функцию
+// logger.keys.call(person) // call сразу вызывает функцию
 
 // logger.keysAndValues.call(person)
 
