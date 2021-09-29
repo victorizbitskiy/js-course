@@ -46,6 +46,7 @@ const getData = () => new Promise(resolve => resolve([
 
 // getData().then(data => console.log(data))
 
+// Вместо Promise можно использовать async await
 async function asyncExample() {
   try {
     await delay(3000)
