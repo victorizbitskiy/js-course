@@ -1,8 +1,8 @@
 const heading = document.getElementById('hello')
 // const heading2 = document.getElementsByTagName('h2')[0] // старый и медленный метод
 // const heading2 = document.getElementsByClassName('h2-class')[0] // старый и медленный метод
-// const heading2 = document.querySelector('.h2-class')
-const heading2 = document.querySelector('#sub-hello')
+// const heading2 = document.querySelector('.h2-class') // по CSS классу
+const heading2 = document.querySelector('#sub-hello') // по Id
 
 console.dir(heading2)
 // 1 способ
